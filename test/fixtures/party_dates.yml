@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  night_start: 2014-08-06
+  time_start: 2014-08-06 19:31:41
+  time_end: 2014-08-06 19:31:41
+
+two:
+  night_start: 2014-08-06
+  time_start: 2014-08-06 19:31:41
+  time_end: 2014-08-06 19:31:41
