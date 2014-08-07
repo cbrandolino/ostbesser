@@ -1,2 +1,7 @@
-%div
-  Hello world
+- @dates.each_with_index do |date, index|
+  %div{ class: "card#{ index ? '' : 'current'}"}
+    %div.card-meta
+      %div.date=date.date.strftime("%a, %d.%m")
+      %div.name
+        Ostgut Nacht
+    %div.event
