@@ -1,0 +1,3 @@
+class BerghainScraper
+
+end

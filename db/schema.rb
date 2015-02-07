@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150203084526) do
+ActiveRecord::Schema.define(version: 20150207150018) do
 
   create_table "acts", force: true do |t|
     t.datetime "start_time"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20150203084526) do
     t.datetime "end_time"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "berghain_id"
   end
 
   create_table "labels", force: true do |t|

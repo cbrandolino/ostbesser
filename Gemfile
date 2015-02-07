@@ -15,6 +15,8 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 
+# Back-end libraries
+gem 'nokogiri'
 
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
