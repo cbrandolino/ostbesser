@@ -18,4 +18,11 @@ class BerghainScraperTest < ActiveSupport::TestCase
     scraper = BerghainScraper.new(680)
     assert_equal scraper.room_names, ['Berghain', 'Panorama Bar', 'Sonntags']
   end
+
+  test 'should return event start date' do
+    scraper = BerghainScraper.new(1243)
+    assert_equal scraper.start_date, '2015-02-07'.to_date
+    scraper = BerghainScraper.new(680)
+    assert_equal scraper.start_date, '2013-05-04'.to_date
+  end
 end
