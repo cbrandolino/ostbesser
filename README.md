@@ -1,28 +1,7 @@
-== README
+# Ostbesser
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An API for set times in a popular Berlin club.
 
-Things you may want to cover:
+It should eventually serve its companion app.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[![Build Status](https://travis-ci.org/cbrandolino/ostbesser.svg?branch=master)](https://travis-ci.org/cbrandolino/ostbesser)

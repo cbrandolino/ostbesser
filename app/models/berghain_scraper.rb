@@ -9,13 +9,20 @@ class BerghainScraper
     @document = Nokogiri::HTML open "#{@@base_url}#{id}"
   end
 
+  def parse
+    
+  end 
+
+  def running_order_hash
+  end
+
   def room_names
     @document.css('.col_context > .type_dancefloor_color').map do |node|
       node.text.sub('Running Order', '').strip
     end
   end
 
-  def room_running_order(room)
+  def room_running_order(index)
 
   end
 
