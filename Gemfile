@@ -21,15 +21,18 @@ gem 'nokogiri'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
 
-group :development do
+group :development, :test do
   gem 'sqlite3'
   gem 'spring'
 end
 
 group :test do
   gem 'rake'
+  gem 'webmock'
+  gem 'minitest-rails'
 end

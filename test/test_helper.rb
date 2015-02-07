@@ -1,10 +1,20 @@
-ENV['RAILS_ENV'] ||= 'test'
-require File.expand_path('../../config/environment', __FILE__)
-require 'rails/test_help'
+ENV["RAILS_ENV"] = "test"
+require File.expand_path("../../config/environment", __FILE__)
+require "rails/test_help"
+require "minitest/rails"
+require 'webmock/minitest'
+require 'uri'
+require "minitest/pride"
 
 class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
+  ActiveRecord::Migration.check_pending!
   fixtures :all
 
-  # Add more helper methods to be used by all tests here...
+  def stub_from_html_fixture(url)
+    uri = URI.parse(url)
+    underscored_path = uri.path.gsub('/', '_')
+    fixture_path = Rails.root.join 'test', 'fixtures', 'html', uri.host, underscored_path
+    body = File.open fixture_path
+    stub_request(:get, url).to_return(body)
+  end
 end
