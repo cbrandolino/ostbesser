@@ -1,6 +1,6 @@
-class BerghainEvent
-  include BerghainScrapeable
-
+class EventPage
+  include Scrapeable
+  
   @@base_url = 'http://berghain.de/event/'
 
   def initialize(id)

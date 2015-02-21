@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BerghainEventTest < ActiveSupport::TestCase
+class EventPageTest < ActiveSupport::TestCase
 
   def setup
     stub_from_html_fixture 'http://berghain.de/event/680'   # Summer
@@ -9,30 +9,30 @@ class BerghainEventTest < ActiveSupport::TestCase
   end
 
   test 'should initialize correctly' do
-    scraper = BerghainEvent.new(1243)
+    scraper = EventPage.new(1243)
     assert_instance_of Nokogiri::HTML::Document, scraper.document
   end
 
   test 'should return name of rooms' do
-    scraper = BerghainEvent.new(1243)
+    scraper = EventPage.new(1243)
     assert_equal scraper.room_names, ['Berghain', 'Panorama Bar']
-    scraper = BerghainEvent.new(680)
+    scraper = EventPage.new(680)
     assert_equal scraper.room_names, ['Berghain', 'Panorama Bar', 'Sonntags']
   end
 
   test 'should return event start date' do
-    scraper = BerghainEvent.new(1243)
+    scraper = EventPage.new(1243)
     assert_equal scraper.start_date, '2015-02-07'.to_date
-    scraper = BerghainEvent.new(680)
+    scraper = EventPage.new(680)
     assert_equal scraper.start_date, '2013-05-04'.to_date
   end
 
   test 'should detect whether set times are there' do
-    scraper = BerghainEvent.new(1243)
+    scraper = EventPage.new(1243)
     assert scraper.times_are_set?
-    scraper = BerghainEvent.new(680)
+    scraper = EventPage.new(680)
     assert scraper.times_are_set?
-    scraper = BerghainEvent.new(1249)
+    scraper = EventPage.new(1249)
     refute scraper.times_are_set?
   end
 end

@@ -1,4 +1,4 @@
-module BerghainScrapeable
+module Scrapeable
   
   extend ActiveSupport::Concern
   require 'open-uri'
