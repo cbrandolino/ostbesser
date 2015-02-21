@@ -1,9 +1,7 @@
-require 'open-uri'
+class BerghainEvent
+  include BerghainScrapeable
 
-class BerghainScraper
-
-  @@base_url = "http://berghain.de/event/"
-  attr_accessor :document
+  @@base_url = 'http://berghain.de/event/'
 
   def initialize(id)
     @document = Nokogiri::HTML open "#{@@base_url}#{id}"
@@ -18,20 +16,22 @@ class BerghainScraper
     !@document.css('.running_order .running_order_time').empty?
   end
 
-  def running_order_hash_raw
+  def running_order_by_room
     room_running_order_hash = {}
     room_names.each.with_index do |room_name, i|
+      room_set_nodes = @document.css('.running_order')[i]
       room_running_order_hash[room_name] = room_running_order_raw(i)
     end
   end
 
   def room_running_order_raw(index)
-    @document.css('.running_order')[i].children.map do |node|
+    @document.css('.running_order')[index].children.map do |node|
       act = {}
       if (times_are_set)
         act[:raw_time] = node.children('.running_order_time').text.strip
       end
       act[:raw_artist] = node.children('.running_order_name').text.strip
+      act
     end
   end
 
@@ -44,5 +44,4 @@ class BerghainScraper
   def room_running_order(index)
 
   end
-
 end
