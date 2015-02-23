@@ -15,16 +15,16 @@ class EventPageTest < ActiveSupport::TestCase
 
   test 'should return name of rooms' do
     scraper = EventPage.new(1243)
-    assert_equal scraper.room_names, ['Berghain', 'Panorama Bar']
+    assert_equal scraper.send(:room_names), ['Berghain', 'Panorama Bar']
     scraper = EventPage.new(680)
-    assert_equal scraper.room_names, ['Berghain', 'Panorama Bar', 'Sonntags']
+    assert_equal scraper.send(:room_names), ['Berghain', 'Panorama Bar', 'Sonntags']
   end
 
   test 'should return event start date' do
     scraper = EventPage.new(1243)
-    assert_equal scraper.start_date, '2015-02-07'.to_date
+    assert_equal scraper.send(:start_date), '2015-02-07'.to_date
     scraper = EventPage.new(680)
-    assert_equal scraper.start_date, '2013-05-04'.to_date
+    assert_equal scraper.send(:start_date), '2013-05-04'.to_date
   end
 
   test 'should detect whether set times are there' do
@@ -35,4 +35,5 @@ class EventPageTest < ActiveSupport::TestCase
     scraper = EventPage.new(1249)
     refute scraper.times_are_set?
   end
+
 end

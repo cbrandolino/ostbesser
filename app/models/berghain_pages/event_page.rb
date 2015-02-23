@@ -1,19 +1,10 @@
 class EventPage
   include Scrapeable
-  
+
   @@base_url = 'http://berghain.de/event/'
 
   def initialize(id)
     @document = Nokogiri::HTML open "#{@@base_url}#{id}"
-    @start_date = start_date
-  end
-
-  def start_date
-    @document.css('.headline').text.split('/')[0].strip.to_date
-  end
-
-  def times_are_set?
-    !@document.css('.running_order .running_order_time').empty?
   end
 
   def running_order_by_room
@@ -22,6 +13,16 @@ class EventPage
       room_set_nodes = @document.css('.running_order')[i]
       room_running_order_hash[room_name] = room_running_order_raw(i)
     end
+  end
+
+  def times_are_set?
+    !@document.css('.running_order .running_order_time').empty?
+  end
+
+  private
+
+  def start_date
+    @document.css('.headline').text.split('/')[0].strip.to_date
   end
 
   def room_running_order_raw(index)
@@ -41,7 +42,4 @@ class EventPage
     end
   end
 
-  def room_running_order(index)
-
-  end
 end
