@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
-Date: Sat, 07 Feb 2015 15:51:02 GMT
+Date: Sat, 07 Feb 2015 17:35:25 GMT
 Server: Apache
 P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
-Set-Cookie: Ostgut=a776c7527f55519dd41253c8f0672226; expires=Sat, 14-Feb-2015 15:51:02 GMT; path=/
+Set-Cookie: Ostgut=530a9799348e7fb7b83b2c3c327b040c; expires=Sat, 14-Feb-2015 17:35:25 GMT; path=/
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
 
@@ -10,8 +10,8 @@ Content-Type: text/html; charset=UTF-8
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>Berghain Berlin | Programm: 07 February 2015</title>
-	<meta name="title" content="Berghain Berlin | Programm: 07 February 2015" />
+	<title>Berghain Berlin | Programm: 28 February 2015</title>
+	<meta name="title" content="Berghain Berlin | Programm: 28 February 2015" />
 	<meta property="fb:page_id" content="107891660540" />
 	
 		
@@ -91,7 +91,7 @@ Content-Type: text/html; charset=UTF-8
 
 			
 <div class="headline">
-		<h2 style="text-transform: none;" class="type_dancefloor">Saturday 07 February 2015<span class="type_dancefloor_color"> / KLUBNACHT</span> <span class="gray">/ Start 23:59</span></h2></div>
+		<h2 style="text-transform: none;" class="type_dancefloor">Saturday 28 February 2015<span class="type_dancefloor_color"> / KLUBNACHT</span> <span class="gray">/ Start 23:59</span></h2></div>
  
 		
 		
@@ -119,96 +119,20 @@ Content-Type: text/html; charset=UTF-8
 								<h4 class="type_dancefloor_color">Running Order Berghain</h4>
 								<ul class="running_order">		
 																	<li>
-																				<span class="running_order_time">23:59 h - 04:00 h</span>
 																				<span class="running_order_name">
-											Monoloc																					</span>
+											Answer Code Request																					</span>
 									</li>
-																	<li>
-																				<span class="running_order_time">04:00 h - 05:00 h</span>
-																				<span class="running_order_name">
-											Ateq																							 <b>LIVE</b>
-																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">05:00 h - 09:00 h</span>
-																				<span class="running_order_name">
-											Konstantin																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">09:00 h - 12:00 h</span>
-																				<span class="running_order_name">
-											Heiko Laux																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">12:00 h - 15:00 h</span>
-																				<span class="running_order_name">
-											Sandrien																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">15:00 h - 18:00 h</span>
-																				<span class="running_order_name">
-											Ron Albrecht																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">18:00 h - 21:00 h</span>
-																				<span class="running_order_name">
-											Rolando																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">21:00 h - 01:00 h</span>
-																				<span class="running_order_name">
-											Fiedel																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">01:00 h - End</span>
-																				<span class="running_order_name">
-											Norman Nodge																					</span>
-									</li>
+																
 																</ul>
 					
 							
 								<h4 class="type_dancefloor_color">Running Order Panorama Bar</h4>
 								<ul class="running_order">		
 																	<li>
-																				<span class="running_order_time">23:59 h - 04:00 h</span>
 																				<span class="running_order_name">
-											Albrecht Wassersleben																					</span>
+											Eamon Harkin &amp; Justin Carter: Mister Saturday Night																					</span>
 									</li>
-																	<li>
-																				<span class="running_order_time">04:00 h - 07:00 h</span>
-																				<span class="running_order_name">
-											Andrew Weatherall																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">07:00 h - 10:00 h</span>
-																				<span class="running_order_name">
-											Maya Jane Coles																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">10:00 h - 14:00 h</span>
-																				<span class="running_order_name">
-											Schmutz																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">14:00 h - 18:00 h</span>
-																				<span class="running_order_name">
-											Dirt Crew																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">18:00 h - 22:00 h</span>
-																				<span class="running_order_name">
-											Oskar &amp; Edward																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">22:00 h - 01:00 h</span>
-																				<span class="running_order_name">
-											Shonky																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">01:00 h - End</span>
-																				<span class="running_order_name">
-											Roi Perez																					</span>
-									</li>
+															
 																</ul>
 					
 													
@@ -227,63 +151,31 @@ Content-Type: text/html; charset=UTF-8
 																									<br />		
 					
 																
-														<span>Monoloc</span>
+														<span>Answer Code Request</span>
 											
 											
 						<span style="color: #666666">
-							clr						</span>
+							ostgut ton						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Ateq</span>
+														<span>Terence Fixmer</span>
 											
 						 <span>LIVE</span> 					
 						<span style="color: #666666">
-							giegling						</span>
+							planete rouge						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Konstantin</span>
+														<span>Len Faki</span>
 											
 											
 						<span style="color: #666666">
-							giegling						</span>
+							figure						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Heiko Laux</span>
-											
-											
-						<span style="color: #666666">
-							kanzleramt						</span>
-						
-						 <span style="color: #666666">|</span> 						
-											
-														<span>Sandrien</span>
-											
-											
-						<span style="color: #666666">
-							trouw						</span>
-						
-						 <span style="color: #666666">|</span> 						
-											
-														<span>Ron Albrecht</span>
-											
-											
-						<span style="color: #666666">
-							pure						</span>
-						
-						 <span style="color: #666666">|</span> 						
-											
-														<span>Rolando</span>
-											
-											
-						<span style="color: #666666">
-							r3						</span>
-						
-						 <span style="color: #666666">|</span> 						
-											
-														<span>Fiedel</span>
+														<span>Function</span>
 											
 											
 						<span style="color: #666666">
@@ -291,11 +183,35 @@ Content-Type: text/html; charset=UTF-8
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Norman Nodge</span>
+														<span>Dave Clarke</span>
 											
 											
 						<span style="color: #666666">
-							ostgut ton						</span>
+													</span>
+						
+						 <span style="color: #666666">|</span> 						
+											
+														<span>DJ Pete</span>
+											
+											
+						<span style="color: #666666">
+							hard wax						</span>
+						
+						 <span style="color: #666666">|</span> 						
+											
+														<span>Stenny</span>
+											
+											
+						<span style="color: #666666">
+							ilian tape						</span>
+						
+						 <span style="color: #666666">|</span> 						
+											
+														<span>Zenker Brothers</span>
+											
+											
+						<span style="color: #666666">
+							ilian tape						</span>
 						
 												
 										</p>
@@ -306,67 +222,75 @@ Content-Type: text/html; charset=UTF-8
 																									<br />		
 					
 																
-														<span>Albrecht Wassersleben</span>
+														<span>Eamon Harkin &amp; Justin Carter: Mister Saturday Night</span>
 											
 											
 						<span style="color: #666666">
-							uncanny valley						</span>
+							mister saturday night						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Andrew Weatherall</span>
+														<span>Duplex</span>
 											
-											
+						 <span>LIVE</span> 					
 						<span style="color: #666666">
-							rotters golf club						</span>
+							clone						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Maya Jane Coles</span>
+														<span>Lake People</span>
 											
-											
+						 <span>LIVE</span> 					
 						<span style="color: #666666">
-							i am me						</span>
+							permanent vacation						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Schmutz</span>
+														<span>Juan Maclean</span>
 											
 											
 						<span style="color: #666666">
-							4lux						</span>
+							dfa						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Dirt Crew</span>
+														<span>Muallem</span>
 											
 											
 						<span style="color: #666666">
-							dirt crew						</span>
+							bob beaman						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Oskar &amp; Edward</span>
+														<span>New Jackson</span>
 											
 											
 						<span style="color: #666666">
-							white						</span>
+							permanent vacation						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Shonky</span>
+														<span>Massimiliano Pagliara</span>
 											
 											
 						<span style="color: #666666">
-							apollonia						</span>
+							larj						</span>
 						
 						 <span style="color: #666666">|</span> 						
 											
-														<span>Roi Perez</span>
+														<span>Permanent Vacation DJ Team</span>
 											
 											
 						<span style="color: #666666">
-													</span>
+							permanent vacation						</span>
+						
+						 <span style="color: #666666">|</span> 						
+											
+														<span>Don Williams</span>
+											
+											
+						<span style="color: #666666">
+							mojuba						</span>
 						
 												
 										</p>
@@ -380,7 +304,7 @@ Content-Type: text/html; charset=UTF-8
 		
 		<div class="col_content">
 			
-			<p>Zwischen Brechstange und sensibler Echokammer werden heute im Berghain allerlei musikalische Lüste befriedigt. Für die zarteren Töne wird ohne Zweifel der Giegling-Spross Ateq mit seinem Live-Act sorgen, seine bisherigen drei Maxis zumindest lassen mit ihren fein dahingetupften Dub-Chords schwer darauf schließen. Dass Clubs generell gut damit beraten sind, sich starke Resident-DJs aufzubauen, sieht man nicht nur an unserer Wenigkeit. Gerade das im Januar geschlossene Trouw in Amsterdam konnte mit einer so kompetenten wie sympahtischen Stamm-Crew glänzen, wie zum Beispiel Sandrien, die heute bei uns auflegen wird. Auf den interessanten Namen Schmutz hört das irische Duo aus Conor MacParland und Kristian Woods, die ihre gleichnamige Partyreihe seit Jahren in Belfast veranstalten. Disco, House und Techno spielen die beiden, womit sie in dieser Klubnacht mit DJs wie Andrew Weatherall, Maya Jane Coles, Roi Perez und Shonky wahrscheinlich nicht alleine dastehen dürften. </p>
+			<p>Muscle Machine hieß 2001 das Debütalbum von Terence Fixmer und so muskulös wie maschinell klang seine Musik auch. Auf seinem neuen, auf CLR erscheinenden Album Depth Charge ist von den frühen EBM-Einflüssen nur noch wenig zu hören, der Franzose hat seinen Sound in den vergangenen Jahren konsequent weiterentwickelt. Aufgeräumt, deep, mit futuristisch anmutenden Synth-Elementen ist das natürlich weiterhin eher den Nachtschattengewächsen zugeneigter Musik. Ein kleines Permanent Vacation-Showcase gibt es heute in der Panorama Bar zu hören. Für das Münchner Boutique-Label von Benjamin Fröhlich und Tom Bioly sind stilistische Einschränkungen vor allem eins: beschränkt. Und so gibt es seit Jahren tolle Musik auf ihrem Label zu entdecken, von dem großen Melancholiker Martin Enke alias Lake People über den irischen Vocoder-Cowbell-Discodancer New Jackson. Überhaupt steht unsere Monatsabschlussparty ganz im Zeichen der rotierenden Spiegelkugel mit dem Mister Saturday Night-Duo, Muallem und Massimiliano Pagliara. </p>
 			
 							
 		</div>

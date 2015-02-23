@@ -7,14 +7,23 @@ class EventPage
     @document = Nokogiri::HTML open "#{@@base_url}#{id}"
   end
 
-  def running_order_by_room
-    room_running_order_hash = {}
-    room_names.each.with_index do |room_name, i|
-      room_set_nodes = @document.css('.running_order')[i]
-      room_running_order_hash[room_name] = room_running_order_raw(i)
+  def lineup_by_room
+    room_names.map.with_index do |room_name, i|
+      room_node = @document.css('.running_order')[i]
+      raw_room_lineup(room_node)
     end
   end
 
+  def raw_room_lineup(room_node)
+    room_node.css('li').map do |node|
+      act = {}
+      if (times_are_set?)
+        act[:raw_time] = node.at_css('.running_order_time').text.strip
+      end
+      act[:raw_artist] = node.at_css('.running_order_name').text.strip
+      act
+    end
+  end
   def times_are_set?
     !@document.css('.running_order .running_order_time').empty?
   end
@@ -23,17 +32,6 @@ class EventPage
 
   def start_date
     @document.css('.headline').text.split('/')[0].strip.to_date
-  end
-
-  def room_running_order_raw(index)
-    @document.css('.running_order')[index].children.map do |node|
-      act = {}
-      if (times_are_set)
-        act[:raw_time] = node.children('.running_order_time').text.strip
-      end
-      act[:raw_artist] = node.children('.running_order_name').text.strip
-      act
-    end
   end
 
   def room_names

@@ -123,47 +123,6 @@ Content-Type: text/html; charset=UTF-8
 																				<span class="running_order_name">
 											Monoloc																					</span>
 									</li>
-																	<li>
-																				<span class="running_order_time">04:00 h - 05:00 h</span>
-																				<span class="running_order_name">
-											Ateq																							 <b>LIVE</b>
-																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">05:00 h - 09:00 h</span>
-																				<span class="running_order_name">
-											Konstantin																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">09:00 h - 12:00 h</span>
-																				<span class="running_order_name">
-											Heiko Laux																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">12:00 h - 15:00 h</span>
-																				<span class="running_order_name">
-											Sandrien																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">15:00 h - 18:00 h</span>
-																				<span class="running_order_name">
-											Ron Albrecht																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">18:00 h - 21:00 h</span>
-																				<span class="running_order_name">
-											Rolando																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">21:00 h - 01:00 h</span>
-																				<span class="running_order_name">
-											Fiedel																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">01:00 h - End</span>
-																				<span class="running_order_name">
-											Norman Nodge																					</span>
-									</li>
 																</ul>
 					
 							
@@ -174,41 +133,7 @@ Content-Type: text/html; charset=UTF-8
 																				<span class="running_order_name">
 											Albrecht Wassersleben																					</span>
 									</li>
-																	<li>
-																				<span class="running_order_time">04:00 h - 07:00 h</span>
-																				<span class="running_order_name">
-											Andrew Weatherall																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">07:00 h - 10:00 h</span>
-																				<span class="running_order_name">
-											Maya Jane Coles																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">10:00 h - 14:00 h</span>
-																				<span class="running_order_name">
-											Schmutz																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">14:00 h - 18:00 h</span>
-																				<span class="running_order_name">
-											Dirt Crew																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">18:00 h - 22:00 h</span>
-																				<span class="running_order_name">
-											Oskar &amp; Edward																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">22:00 h - 01:00 h</span>
-																				<span class="running_order_name">
-											Shonky																					</span>
-									</li>
-																	<li>
-																				<span class="running_order_time">01:00 h - End</span>
-																				<span class="running_order_name">
-											Roi Perez																					</span>
-									</li>
+																
 																</ul>
 					
 													

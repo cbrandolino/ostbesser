@@ -3,9 +3,12 @@ require 'test_helper'
 class EventPageTest < ActiveSupport::TestCase
 
   def setup
-    stub_from_html_fixture 'http://berghain.de/event/680'   # Summer
-    stub_from_html_fixture 'http://berghain.de/event/1243'  # Times are there
     stub_from_html_fixture 'http://berghain.de/event/1249'  # Times are not there
+    stub_from_html_fixture 'http://berghain.de/event/1249_short'
+    stub_from_html_fixture 'http://berghain.de/event/1243'  # Times are there
+    stub_from_html_fixture 'http://berghain.de/event/1243_short'
+    stub_from_html_fixture 'http://berghain.de/event/680'   # Summer
+
   end
 
   test 'should initialize correctly' do
@@ -34,6 +37,24 @@ class EventPageTest < ActiveSupport::TestCase
     assert scraper.times_are_set?
     scraper = EventPage.new(1249)
     refute scraper.times_are_set?
+  end
+
+  test 'should return raw lineup by room, with times' do
+    scraper = EventPage.new('1243_short')
+    result = scraper.lineup_by_room
+    assert_equal scraper.lineup_by_room, [
+      [{:raw_time=>"23:59 h - 04:00 h", :raw_artist=>"Monoloc"}], 
+      [{:raw_time=>"23:59 h - 04:00 h", :raw_artist=>"Albrecht Wassersleben"}]
+    ]
+  end
+
+  test 'should return raw lineup by room, without times' do  
+    scraper = EventPage.new('1249_short')
+    result = scraper.lineup_by_room
+    assert_equal scraper.lineup_by_room, [
+      [{:raw_artist=>"Answer Code Request"}], 
+      [{:raw_artist=>"Eamon Harkin & Justin Carter: Mister Saturday Night"}]
+    ]
   end
 
 end
